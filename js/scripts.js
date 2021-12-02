@@ -1,6 +1,6 @@
 /* Contact Me */
 function myFunction() {
-    alert("The form has been submitted");
+    alert("The form has been submitted. Thank you.");
 }
 
 /* Heading */
