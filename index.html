@@ -4,9 +4,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+
+
+    <title>Jeffrey Zhong - Personal Portfolio Website</title>
+
 </head>
-<body>
-    
+<body id="home">
+    <img class="bg1" src="images/whitebg.jpeg" alt="">
+    <header id="header">
+        <div class="headerInner">
+            <a class="nameLogo" href="index.html">Jeffrey Zhong</a>
+            <div id="burgerMenu" class="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav id="forMobileMenu" class="forMobileMenu">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="first" class="first">
+            <div class="firstInner">
+                <img src="images/unDraw.jpg" alt="undraw">
+                <h1 class="firstTitle">Hello! My Name Is <span>Jeffrey.</span></h1>
+                <p>I'm a Year 1 Student, pursuing Information Technology at Ngee Ann Polytechnic.</p>
+                <a href="#contact"><button class="btn1">Hire Me</button></a>
+                <a href="#projects"><button class="btn2">View My Work</button></a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="aboutInner">
+                <div class="aboutPic">
+                    <div class="picOuter"><img src="images/jeff_img.jpeg" alt="about_image"></div>
+                </div>
+                
+                <div class="aboutText">
+                    <h2 class="aboutTitle">About <span>Me</span></h2>
+                    <p>My name is Jeffrey Zhong, and I am a Year 1 Student pursuing Information Technology at Ngee Ann Polytecnic. 
+                    I consider myself to be a technology driven student, eager to participate in the development of digital transformation.<br><br>
+                    I am currently learning and experienting with HTML, CSS, JavaScript and C# but I'm also learning new technologies and expanding my skillsets.<br><br>
+                    "There are no secrets to success. It is the results of preparation, hard work and learning from failure" ~ Colin Powell. 
+                    This is possibly my favourite quote, reminding myself to continue working hard despite any circumstances. 
+                    I look forward to engage myself in technology based continuous learning and produce quality work while making a significant impact.</p>
+                    <a href="resume.html" target="_blank"><button class="resume"> View Resume</button></a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="projectsInner">
+                <h2 class="projectsTitle">Projects</h2>
+                <div class="boards">
+                    <div class="board">
+                        <div class="boardImage">
+                            <img src="images/personalWebPic.png" alt="personal-portfolio">
+                        </div>
+                        <div class="boardContent">
+                            <h3 class="boardTitle">Personal Portfolio Website</h3>
+                            <p> I have designed and coded my own responsive Personal Portfolio Website for ID Assignment 1 from scratch, which includes my personal information and my resume.</p>
+                            <div class="boardButtons">
+                                <a href="#" target="_blank"><i class="fas fa-desktop"></i> View Website</a>
+                                <a href="https://github.com/jeffzhoong/ID-Assignment1.git" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="board">
+                        <div class="boardImage">
+                            <img src="images/prg1assignment1pic.jpg" alt="prg1assignment">
+                        </div>
+                        <div class="boardContent">
+                            <h3 class="boardTitle">Python Building Game</h3>
+                            <p>This Python City Building Game allows players to strategically place buildings on a 4x4 city over 16 turns to score the most points as possible.</p>
+                            <div class="boardButtons">
+                                <a href="https://github.com/jeffzhoong/ID-Assignment1.git" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="board">
+                        <div class="boardImage">
+                            <img src="images/food_1.png" alt="future-projects">
+                        </div>
+                        <div class="boardContent">
+                            <h3 class="boardTitle">Future Projects</h3>
+                            <p>To include future projects over my 3 years in Ngee Ann Polytechnic. I will try my best to update this section regularly after projects have been done. </p>
+                            <div class="boardButtons">
+                                <a href="#"><i class="fas fa-desktop"></i> View Website</a>
+                                <a href="#"><i class="fas fa-code"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contactInner">
+                <div class="contactDetails">
+                    <h2 class="contactTitle">Hire <span>Me</span></h2>
+                    <p>Should you have any queries or want to hire me, feel free to contact me by sending a message through the contact form.</p>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/jeffrey-zhong-46b642211/" target="_blank" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/jeffzhoong" target="_blank" class="social"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form id="myForm" action="/action_page.php">
+                        <input type="text" placeholder="Enter your name" name="name" id="name">
+                        <input type="email" placeholder="Enter your email" name="email" id="email">
+                        <textarea name="message" cols="30" rows="10" placeholder="Type a message" id="message"></textarea>
+                        <button type="submit" onclick="myFunction()">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerInner"> 
+            <p class="footerInfo">
+                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <span class="text">S10223330@connect.np.edu.sg &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span> 
+                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <span class="text">+65 8439 7338</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d5a84b61e8.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 </html>

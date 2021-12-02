@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000%;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Side */
+.container .leftSide {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText .imgBx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileText .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileText h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+/* About Me */
+.aboutMe {
+  padding-top: 40px;
+}
+
+.aboutMe div {
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+/* Contact Information */
+.contactInfo {
+  padding-top: 40px;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.contactInfo ul {
+  position: relative;
+}
+.contactInfo ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.contactInfo ul li span {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* Right Side */
+.container .rightSide {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+.edu li {
+  margin-bottom: 15px;
+}
+
+.edu:last-child {
+  margin-bottom: 0;
+}
+
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #333;
+}
+
+/* Education & Experience */
+.edu .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.edu .box .yearCompany {
+  min-width: 150px;
+}
+
+.edu .box .yearCompany h5 {
+  text-transform: uppercase;
+  color: #848c84;
+  font-weight: 600;
+}
+
+.edu .box .text h4 {
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 15px;
+}
+
+/** Professional Skills **/
+/* Soft Skills & Hard Skills */
+.title3 {
+  color: #003147;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.profSkills ul {
+  position: relative;
+}
+
+.profSkills ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.profSkills ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+
+.profSkills ul li span {
+  color: #848c84;
+  font-weight: 600;
+}
+
+/* Interests */
+.interests ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.interests ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.interests ul li .icon {
+  display: inline-block;
+  font-size: 18px;
+  color: #03a9f4;
+}
+
+.interests ul li span {
+  color: #848c84;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .interests ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutMe.box {
+    flex-direction: column;
+  }
+  .aboutMe .box .yearCompany {
+    min-width: 150px;
+    margin-bottom: 5px;
+  }
+  .interests ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
