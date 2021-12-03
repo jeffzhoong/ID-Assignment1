@@ -24,26 +24,21 @@ In this section, you should go over the different parts of your project, and des
 
 /_Personal Portfolio Website_/
 'Home' Section:
-
 - Responsive navigation bar - able to turn into 'burger icon' when the website is viewed on phones etc.
 - Hyperlinked buttons (Hire Me, View My Work) - brings hirers to 'Contact' section when clicked on 'Hire Me', and brings hirers to 'Projects' section upon clicking 'View My Work'
 - Hyperlinked button (View Resume) - brings hirers to Resume Website upon clicking on 'View Resume'
 
 'Projects' Section:
-
 - Hyperlinked icons (View Website & View Code) - allows hirers to view the projects code on Github and website(if needed) to have a deeper understanding on the project.
 
 'Contact' Section:
-
 - Contact form - allows hirers that are interested to contact me, by having them to fill up their name, email and a message to submit.
 - Hyperlinked icons (Github and LinkedIn) - allows hirers to click on these icons and be brought to the icon website.
 
 /_Resume Website_/
-
 - Icons - to further display my details on the website, aesthetic purposes
 
-Further Plans:
-
+Further Plans 
 - would include more projects into the 'Projects' section in the future once a project has been done
 
 ### Features Left to Implement
@@ -64,30 +59,25 @@ Further Plans:
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Navigation Bar
-
    1. Go to 'Home' section
    2. Click on 'Home, Resume, Projects, Contact' and verify that it send you to its respective sections on the website
    3. View the website on mobile
    4. Verify that a 'web hamburger icon' appears instead of 'Home, Resume, Projects, Contact' and when clicked, 'Home, Resume, Projects, Contact' will appear vertically, and verify that it send you to its respective sections on the website
 
 2. Hire Me & View My Work (under 'Home' in Personal Portfolio Website):
-
    1. Go to 'Home' section
    2. Click on 'View My Work' button and verify that it send you to the 'Projects' section
    3. Click on 'Hire Me' button and verify that it send you to the 'Contact' section
 
 3. View resume (under 'About Me' in Personal Portfolio Website):
-
    1. Go to 'About Me' section under 'Home'
    2. Click on 'View Resume' button and verify that it send you to the Resume Website
 
 4. Hyperlinekd Icons (TV & Code icons, under 'Projects' in Personal Portfolio Website):
-
    1. Go to 'Projects' section
    2. Click on the hyperlinked icons and verify that it send you to the the respective project's website and github to view the code
 
 5. Hyperlinked Icons (LinkedIm & Github icons, under 'Contact' section)
-
    1. Go to 'Contact' section
    2. Click on the hyperlinked icons and verify that it send you to my LinkedIn and Github respectively
 
