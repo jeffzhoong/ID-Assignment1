@@ -1,5 +1,5 @@
-/* Contact Me */
-function myFunction() {
+/* Contact Me Submission */
+function submitForm() {
     alert("The form has been submitted. Thank you.");
 }
 
