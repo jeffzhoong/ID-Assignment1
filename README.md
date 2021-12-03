@@ -22,7 +22,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-/_Personal Portfolio Website_/
+Personal Portfolio Website
 'Home' Section:
 - Responsive navigation bar - able to turn into 'burger icon' when the website is viewed on phones etc.
 - Hyperlinked buttons (Hire Me, View My Work) - brings hirers to 'Contact' section when clicked on 'Hire Me', and brings hirers to 'Projects' section upon clicking 'View My Work'
@@ -35,7 +35,7 @@ In this section, you should go over the different parts of your project, and des
 - Contact form - allows hirers that are interested to contact me, by having them to fill up their name, email and a message to submit.
 - Hyperlinked icons (Github and LinkedIn) - allows hirers to click on these icons and be brought to the icon website.
 
-/_Resume Website_/
+Resume Website
 - Icons - to further display my details on the website, aesthetic purposes
 
 Further Plans 
