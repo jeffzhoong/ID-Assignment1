@@ -574,14 +574,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 844px) {
-  .first img {
-    width: 310px;
-    right: 30px;
-    top: 160px;
-  }
-}
-
 @media screen and (max-width: 800px) {
   .bg1 {
     display: none;
@@ -608,7 +600,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 556px) {
+@media screen and (max-width: 550px) {
   .projects .board {
     margin-bottom: 20px;
     margin-left: 0;
@@ -619,9 +611,7 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
   }
-}
 
-@media screen and (max-width: 500px) {
   header {
     position: relative;
     z-index: 4;
