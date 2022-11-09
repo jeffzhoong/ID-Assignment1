@@ -1,6 +1,6 @@
 # ID-Assignment1
 
-# Your Project's Name
+# Resume
 
 I have designed and built a responsive personal portfolio website, to present myself in the best light to get hired. I have separated this project into two main parts, a Personal Website and a Resume, which are both responsive.
 
